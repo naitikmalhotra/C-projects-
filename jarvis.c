@@ -31,6 +31,11 @@ int main()
             speak("Opening Google");
             system("start https://www.google.com");
         }
+            else if (strcmp(command, "github") == 0)
+        {
+            speak("Opening Github");
+            system("start https://github.com/");
+        }
         else if (strcmp(command, "youtube") == 0)
         {
             speak("Opening Youtube");
